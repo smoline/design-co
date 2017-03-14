@@ -4,5 +4,140 @@ html {
 
 body {
   margin: 0;
-  font: 16px / 1 sans-serif;
+  font: 16px / 1 Georgia;
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-size: 36px;
+}
+
+h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+hr {
+  border: none;
+  border-bottom: 0.2em solid red;
+  margin-bottom: 0;
+  max-width: 600px;
+}
+
+ul {
+  margin-top: 0;
+  background-color: #c5c7c7;
+  padding-left: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  list-style: none;
+}
+
+ul a {
+  color: black;
+  text-decoration: none;
+}
+
+li {
+  font-size: 30px;
+  display: inline-block;
+  text-align: center;
+  padding: 0 40px;
+}
+
+#home a {
+  color: red;
+}
+
+a:hover {
+  background-color: #fbfefe;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+div.navigation {
+  text-align: center;
+  width: auto;
+}
+
+#flexImages {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+
+}
+
+#pheader1 {
+  display: flex;
+  font-size: 14px;
+  color: red;
+  font-weight: bold;
+  width: 200px;
+  align-items: flex-start;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#pheader2 {
+  display: flex;
+  font-size: 14px;
+  font-weight: bold;
+  width: 200px;
+  align-items: flex-start;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#noHeader1 {
+  display: flex;
+  color: transparent;
+  width: 200px;
+  align-items: flex-end;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#noHeader2 {
+  display: flex;
+  color: transparent;
+  width: 200px;
+  align-items: flex-end;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.flexTextHeader {
+  display: flex;
+  height: auto;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+p {
+  font-size: 12px;
+}
+
+.flexTextContainer {
+
+  display: flex;
+  height: auto;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.flexTextItems {
+  display: flex;
+  width: 200px;
+  align-items: flex-start;
+  padding-left: 20px;
+  padding-right: 20px;
 }
