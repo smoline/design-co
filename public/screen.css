@@ -64,80 +64,70 @@ div.navigation {
   width: auto;
 }
 
-#flexImages {
+.flexImagesTop {
   margin-top: 40px;
   display: flex;
   justify-content: center;
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
-
 }
 
-#pheader1 {
-  display: flex;
-  font-size: 14px;
-  color: red;
-  font-weight: bold;
-  width: 200px;
-  align-items: flex-start;
-  padding-left: 20px;
-  padding-right: 20px;
+.middle {
+  transition: .5s ease;
+  margin: 0;
+  opacity: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  backgroud-color: white;
 }
 
-#pheader2 {
-  display: flex;
-  font-size: 14px;
-  font-weight: bold;
-  width: 200px;
-  align-items: flex-start;
-  padding-left: 20px;
-  padding-right: 20px;
+.flexImages:hover .image1 {
+  opacity: 0.3;
 }
 
-#noHeader1 {
-  display: flex;
-  color: transparent;
-  width: 200px;
-  align-items: flex-end;
-  padding-left: 20px;
-  padding-right: 20px;
+.flexImages:hover .image2 {
+  opacity: 0.3;
 }
 
-#noHeader2 {
-  display: flex;
-  color: transparent;
-  width: 200px;
-  align-items: flex-end;
-  padding-left: 20px;
-  padding-right: 20px;
+.flexImages:hover .middle {
+  opacity: 1;
 }
 
-.flexTextHeader {
-  display: flex;
-  height: auto;
-  justify-content: center;
-  flex-direction: row;
-  flex-wrap: nowrap;
-}
-
-p {
-  font-size: 12px;
+.text1 {
+  background-color: #4CAF50;
+  color: blue;
+  font-size: 16px;
+  padding: 16px 32px;
 }
 
 .flexTextContainer {
-
   display: flex;
-  height: auto;
   justify-content: center;
+  height: auto;
   flex-direction: row;
   flex-wrap: nowrap;
+  width: 800px;
+  padding-left:40px
 }
 
-.flexTextItems {
-  display: flex;
-  width: 200px;
-  align-items: flex-start;
-  padding-left: 20px;
-  padding-right: 20px;
+.flexTextContainer h4 {
+  font-size: 150%
+}
+
+.whatsNew {
+  flex: 1;
+}
+
+.whatsNew h4 {
+  color: red;
+}
+
+.modernLayout {
+  flex: 3;
+}
+
+.modernLayout p {
+  column-count: 3;
 }
